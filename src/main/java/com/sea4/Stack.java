@@ -1,3 +1,4 @@
+package com.sea4;
 public class Stack {
     private int[] stack;
     private int top;
@@ -50,16 +51,5 @@ public class Stack {
     // Return current size
     public int size() {
         return top + 1;
-    }
-
-    public static void main(String[] args) {
-        Stack s = new Stack(5);
-        s.push(10);
-        s.push(20);
-        s.push(30);
-        System.out.println("Top element: " + s.peek());
-        System.out.println("Popped: " + s.pop());
-        System.out.println("Stack size: " + s.size());
-        System.out.println("Is empty: " + s.isEmpty());
     }
 }
