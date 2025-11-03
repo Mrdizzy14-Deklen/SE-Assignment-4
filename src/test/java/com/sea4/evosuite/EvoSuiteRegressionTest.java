@@ -33,7 +33,7 @@ public class EvoSuiteRegressionTest {
     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
     org.evosuite.runtime.RuntimeSettings.mockSystemIn = true; 
     org.evosuite.runtime.RuntimeSettings.sandboxMode = org.evosuite.runtime.sandbox.Sandbox.SandboxMode.RECOMMENDED; 
-    org.evosuite.runtime.sandbox.Sandbox.initializeSecurityManagerForSUT(); 
+    //org.evosuite.runtime.sandbox.Sandbox.initializeSecurityManagerForSUT(); 
     org.evosuite.runtime.classhandling.JDKClassResetter.init();
     setSystemProperties();
     initializeClasses();
